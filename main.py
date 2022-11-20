@@ -74,7 +74,7 @@ def redrawGameWindow():
     win.blit(bg, (0,0))
     man.draw(win)
     for bullet in bullets:
-        bullets.draw(win)
+        bullet.draw(win)
     pygame.display.update()
 #main loop
 man = player (300,410,64,64)
